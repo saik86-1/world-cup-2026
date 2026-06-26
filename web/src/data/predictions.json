@@ -1,0 +1,477 @@
+{
+  "meta": {
+    "updated": "2026-06-26 16:28 UTC",
+    "model": "Elo + negative-binomial + MLP neural net (ensemble)",
+    "training_matches": 9931,
+    "training_note": "WC 1930-2022, Euro 1960-2024, WC/Copa qualifiers, Nations League, AFCON, Copa America",
+    "ensemble_weights": {
+      "poisson": 0.62,
+      "neural_net": 0.38
+    },
+    "as_of_date": "2026-06-26"
+  },
+  "predictions": [
+    {
+      "home": "Norway",
+      "away": "France",
+      "elo": {
+        "Norway": 1952,
+        "France": 2090
+      },
+      "prob": {
+        "home": 0.238,
+        "draw": 0.2494,
+        "away": 0.5126
+      },
+      "verdict": {
+        "result": "win",
+        "winner": "France",
+        "margin": 1,
+        "text": "France to win by 1 goal"
+      },
+      "scoreline": "0-1",
+      "projected_score": "1-2",
+      "top_scores": [
+        {
+          "score": "0-1",
+          "prob": 0.118
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1035
+        },
+        {
+          "score": "0-2",
+          "prob": 0.0937
+        }
+      ],
+      "margins": {
+        "home_by1": 0.1422,
+        "home_by2plus": 0.088,
+        "away_by1": 0.2288,
+        "away_by2plus": 0.3028
+      },
+      "expected_goals": {
+        "Norway": 0.99,
+        "France": 1.71
+      },
+      "confidence": "Medium",
+      "components": {
+        "poisson": {
+          "home": 0.23,
+          "draw": 0.238,
+          "away": 0.532
+        },
+        "net": {
+          "home": 0.251,
+          "draw": 0.268,
+          "away": 0.481
+        },
+        "weights": {
+          "poisson": 0.62,
+          "net": 0.38
+        }
+      },
+      "pick": "France",
+      "id": "2026-06-26-Norway-France",
+      "date": "2026-06-26",
+      "group": "I",
+      "venue": "Boston (Foxborough)",
+      "kickoff_et": "3:00 PM ET",
+      "lineup_note": null,
+      "result": null,
+      "status": "upcoming",
+      "h2h": "6 prior meeting(s) on record. Recent: 1969: Norway 1-3 France; 1988: France 1-0 Norway; 1989: Norway 1-1 France.",
+      "appearances": {
+        "Norway": 170,
+        "France": 267
+      },
+      "is_next": true
+    },
+    {
+      "home": "Senegal",
+      "away": "Iraq",
+      "elo": {
+        "Senegal": 1816,
+        "Iraq": 1586
+      },
+      "prob": {
+        "home": 0.6179,
+        "draw": 0.2239,
+        "away": 0.1581
+      },
+      "verdict": {
+        "result": "win",
+        "winner": "Senegal",
+        "margin": 1,
+        "text": "Senegal to win by 1 goal"
+      },
+      "scoreline": "1-0",
+      "projected_score": "2-1",
+      "top_scores": [
+        {
+          "score": "1-0",
+          "prob": 0.1343
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1188
+        },
+        {
+          "score": "1-1",
+          "prob": 0.0914
+        }
+      ],
+      "margins": {
+        "home_by1": 0.2385,
+        "home_by2plus": 0.3969,
+        "away_by1": 0.1032,
+        "away_by2plus": 0.0461
+      },
+      "expected_goals": {
+        "Senegal": 1.96,
+        "Iraq": 0.74
+      },
+      "confidence": "High",
+      "components": {
+        "poisson": {
+          "home": 0.636,
+          "draw": 0.214,
+          "away": 0.149
+        },
+        "net": {
+          "home": 0.588,
+          "draw": 0.24,
+          "away": 0.172
+        },
+        "weights": {
+          "poisson": 0.62,
+          "net": 0.38
+        }
+      },
+      "pick": "Senegal",
+      "id": "2026-06-26-Senegal-Iraq",
+      "date": "2026-06-26",
+      "group": "I",
+      "venue": "Toronto",
+      "kickoff_et": "3:00 PM ET",
+      "lineup_note": null,
+      "result": null,
+      "status": "upcoming",
+      "h2h": "Senegal and Iraq have no World Cup, Euro, Copa or AFCON meetings on record.",
+      "appearances": {
+        "Senegal": 171,
+        "Iraq": 132
+      },
+      "is_next": false
+    },
+    {
+      "home": "Cape Verde",
+      "away": "Saudi Arabia",
+      "elo": {
+        "Cape Verde": 1625,
+        "Saudi Arabia": 1593
+      },
+      "prob": {
+        "home": 0.4013,
+        "draw": 0.2585,
+        "away": 0.3402
+      },
+      "verdict": {
+        "result": "win",
+        "winner": "Cape Verde",
+        "margin": 1,
+        "text": "Cape Verde to win by 1 goal"
+      },
+      "scoreline": "1-1",
+      "projected_score": "1-1",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "prob": 0.1097
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1005
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0902
+        }
+      ],
+      "margins": {
+        "home_by1": 0.2041,
+        "home_by2plus": 0.2061,
+        "away_by1": 0.1832,
+        "away_by2plus": 0.1555
+      },
+      "expected_goals": {
+        "Cape Verde": 1.43,
+        "Saudi Arabia": 1.27
+      },
+      "confidence": "Low",
+      "components": {
+        "poisson": {
+          "home": 0.41,
+          "draw": 0.251,
+          "away": 0.339
+        },
+        "net": {
+          "home": 0.387,
+          "draw": 0.271,
+          "away": 0.343
+        },
+        "weights": {
+          "poisson": 0.62,
+          "net": 0.38
+        }
+      },
+      "pick": "Cape Verde",
+      "id": "2026-06-26-Cape_Verde-Saudi_Arabia",
+      "date": "2026-06-26",
+      "group": "H",
+      "venue": "Houston",
+      "kickoff_et": "8:00 PM ET",
+      "lineup_note": null,
+      "result": null,
+      "status": "upcoming",
+      "h2h": "Cape Verde and Saudi Arabia have no World Cup, Euro, Copa or AFCON meetings on record.",
+      "appearances": {
+        "Cape Verde": 54,
+        "Saudi Arabia": 168
+      },
+      "is_next": false
+    },
+    {
+      "home": "Uruguay",
+      "away": "Spain",
+      "elo": {
+        "Uruguay": 1851,
+        "Spain": 2134
+      },
+      "prob": {
+        "home": 0.1398,
+        "draw": 0.2185,
+        "away": 0.6417
+      },
+      "verdict": {
+        "result": "win",
+        "winner": "Spain",
+        "margin": 1,
+        "text": "Spain to win by 1 goal"
+      },
+      "scoreline": "0-1",
+      "projected_score": "1-2",
+      "top_scores": [
+        {
+          "score": "0-1",
+          "prob": 0.1444
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1349
+        },
+        {
+          "score": "0-3",
+          "prob": 0.0933
+        }
+      ],
+      "margins": {
+        "home_by1": 0.0808,
+        "home_by2plus": 0.0287,
+        "away_by1": 0.2388,
+        "away_by2plus": 0.4535
+      },
+      "expected_goals": {
+        "Uruguay": 0.6,
+        "Spain": 2.1
+      },
+      "confidence": "High",
+      "components": {
+        "poisson": {
+          "home": 0.11,
+          "draw": 0.196,
+          "away": 0.694
+        },
+        "net": {
+          "home": 0.189,
+          "draw": 0.254,
+          "away": 0.557
+        },
+        "weights": {
+          "poisson": 0.62,
+          "net": 0.38
+        }
+      },
+      "pick": "Spain",
+      "id": "2026-06-26-Uruguay-Spain",
+      "date": "2026-06-26",
+      "group": "H",
+      "venue": "Guadalajara (Zapopan)",
+      "kickoff_et": "8:00 PM ET",
+      "lineup_note": null,
+      "result": null,
+      "status": "upcoming",
+      "h2h": "2 prior meeting(s) on record. Recent: 1950: Uruguay 2-2 Spain; 1990: Uruguay 0-0 Spain.",
+      "appearances": {
+        "Uruguay": 266,
+        "Spain": 281
+      },
+      "is_next": false
+    },
+    {
+      "home": "Egypt",
+      "away": "Iran",
+      "elo": {
+        "Egypt": 1740,
+        "Iran": 1766
+      },
+      "prob": {
+        "home": 0.3413,
+        "draw": 0.2602,
+        "away": 0.3984
+      },
+      "verdict": {
+        "result": "win",
+        "winner": "Iran",
+        "margin": 1,
+        "text": "Iran to win by 1 goal"
+      },
+      "scoreline": "1-1",
+      "projected_score": "1-1",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "prob": 0.1099
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0996
+        },
+        {
+          "score": "1-0",
+          "prob": 0.0911
+        }
+      ],
+      "margins": {
+        "home_by1": 0.1852,
+        "home_by2plus": 0.1596,
+        "away_by1": 0.2024,
+        "away_by2plus": 0.2014
+      },
+      "expected_goals": {
+        "Egypt": 1.28,
+        "Iran": 1.42
+      },
+      "confidence": "Low",
+      "components": {
+        "poisson": {
+          "home": 0.345,
+          "draw": 0.251,
+          "away": 0.404
+        },
+        "net": {
+          "home": 0.336,
+          "draw": 0.275,
+          "away": 0.39
+        },
+        "weights": {
+          "poisson": 0.62,
+          "net": 0.38
+        }
+      },
+      "pick": "Iran",
+      "id": "2026-06-26-Egypt-Iran",
+      "date": "2026-06-26",
+      "group": "G",
+      "venue": "Seattle",
+      "kickoff_et": "11:00 PM ET",
+      "lineup_note": null,
+      "result": null,
+      "status": "upcoming",
+      "h2h": "Egypt and Iran have no World Cup, Euro, Copa or AFCON meetings on record.",
+      "appearances": {
+        "Egypt": 220,
+        "Iran": 169
+      },
+      "is_next": false
+    },
+    {
+      "home": "New Zealand",
+      "away": "Belgium",
+      "elo": {
+        "New Zealand": 1549,
+        "Belgium": 1869
+      },
+      "prob": {
+        "home": 0.1137,
+        "draw": 0.2023,
+        "away": 0.684
+      },
+      "verdict": {
+        "result": "win",
+        "winner": "Belgium",
+        "margin": 2,
+        "text": "Belgium to win by 2 goals"
+      },
+      "scoreline": "0-1",
+      "projected_score": "1-2",
+      "top_scores": [
+        {
+          "score": "0-1",
+          "prob": 0.1518
+        },
+        {
+          "score": "0-2",
+          "prob": 0.1468
+        },
+        {
+          "score": "0-3",
+          "prob": 0.1052
+        }
+      ],
+      "margins": {
+        "home_by1": 0.066,
+        "home_by2plus": 0.0195,
+        "away_by1": 0.2368,
+        "away_by2plus": 0.4927
+      },
+      "expected_goals": {
+        "New Zealand": 0.51,
+        "Belgium": 2.19
+      },
+      "confidence": "High",
+      "components": {
+        "poisson": {
+          "home": 0.086,
+          "draw": 0.183,
+          "away": 0.731
+        },
+        "net": {
+          "home": 0.159,
+          "draw": 0.234,
+          "away": 0.607
+        },
+        "weights": {
+          "poisson": 0.62,
+          "net": 0.38
+        }
+      },
+      "pick": "Belgium",
+      "id": "2026-06-26-New_Zealand-Belgium",
+      "date": "2026-06-26",
+      "group": "G",
+      "venue": "Vancouver",
+      "kickoff_et": "11:00 PM ET",
+      "lineup_note": null,
+      "result": null,
+      "status": "upcoming",
+      "h2h": "New Zealand and Belgium have no World Cup, Euro, Copa or AFCON meetings on record.",
+      "appearances": {
+        "New Zealand": 61,
+        "Belgium": 242
+      },
+      "is_next": false
+    }
+  ]
+}
