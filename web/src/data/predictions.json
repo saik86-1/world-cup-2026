@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "updated": "2026-06-29 15:48 UTC",
+    "model": "Elo + negative-binomial + MLP neural net (ensemble)",
+    "training_matches": 9931,
+    "training_note": "WC 1930-2022, Euro 1960-2024, WC/Copa qualifiers, Nations League, AFCON, Copa America",
+    "ensemble_weights": {
+      "poisson": 0.62,
+      "neural_net": 0.38
+    },
+    "as_of_date": "2026-06-29"
+  },
+  "predictions": [
+    {
+      "home": "Brazil",
+      "away": "Japan",
+      "elo": {
+        "Brazil": 2009,
+        "Japan": 1910
+      },
+      "prob": {
+        "home": 0.4635,
+        "draw": 0.2575,
+        "away": 0.279
+      },
+      "verdict": {
+        "result": "win",
+        "winner": "Brazil",
+        "margin": 1,
+        "text": "Brazil to win by 1 goal"
+      },
+      "scoreline": "1-0",
+      "projected_score": "2-1",
+      "top_scores": [
+        {
+          "score": "1-0",
+          "prob": 0.1114
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1067
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0841
+        }
+      ],
+      "margins": {
+        "home_by1": 0.2212,
+        "home_by2plus": 0.2655,
+        "away_by1": 0.158,
+        "away_by2plus": 0.1104
+      },
+      "expected_goals": {
+        "Brazil": 1.61,
+        "Japan": 1.09
+      },
+      "confidence": "Medium",
+      "components": {
+        "poisson": {
+          "home": 0.487,
+          "draw": 0.245,
+          "away": 0.269
+        },
+        "net": {
+          "home": 0.425,
+          "draw": 0.279,
+          "away": 0.296
+        },
+        "weights": {
+          "poisson": 0.62,
+          "net": 0.38
+        }
+      },
+      "pick": "Brazil",
+      "id": "2026-06-29-Brazil-Japan",
+      "date": "2026-06-29",
+      "group": null,
+      "venue": "Houston",
+      "kickoff_et": "6:00 PM ET",
+      "lineup_note": null,
+      "result": null,
+      "status": "upcoming",
+      "h2h": "1 prior meeting(s) on record. Recent: 2006: Japan 1-4 Brazil.",
+      "appearances": {
+        "Brazil": 274,
+        "Japan": 160
+      },
+      "is_next": true
+    },
+    {
+      "home": "Netherlands",
+      "away": "Morocco",
+      "elo": {
+        "Netherlands": 1980,
+        "Morocco": 1877
+      },
+      "prob": {
+        "home": 0.4791,
+        "draw": 0.255,
+        "away": 0.2659
+      },
+      "verdict": {
+        "result": "win",
+        "winner": "Netherlands",
+        "margin": 1,
+        "text": "Netherlands to win by 1 goal"
+      },
+      "scoreline": "1-0",
+      "projected_score": "2-1",
+      "top_scores": [
+        {
+          "score": "1-0",
+          "prob": 0.112
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1065
+        },
+        {
+          "score": "2-0",
+          "prob": 0.0849
+        }
+      ],
+      "margins": {
+        "home_by1": 0.222,
+        "home_by2plus": 0.2689,
+        "away_by1": 0.1565,
+        "away_by2plus": 0.1082
+      },
+      "expected_goals": {
+        "Netherlands": 1.62,
+        "Morocco": 1.08
+      },
+      "confidence": "Medium",
+      "components": {
+        "poisson": {
+          "home": 0.491,
+          "draw": 0.244,
+          "away": 0.265
+        },
+        "net": {
+          "home": 0.459,
+          "draw": 0.273,
+          "away": 0.268
+        },
+        "weights": {
+          "poisson": 0.62,
+          "net": 0.38
+        }
+      },
+      "pick": "Netherlands",
+      "id": "2026-06-29-Netherlands-Morocco",
+      "date": "2026-06-29",
+      "group": null,
+      "venue": "Monterrey",
+      "kickoff_et": "7:00 PM ET",
+      "lineup_note": null,
+      "result": null,
+      "status": "upcoming",
+      "h2h": "1 prior meeting(s) on record. Recent: 1994: Morocco 1-2 Netherlands.",
+      "appearances": {
+        "Netherlands": 290,
+        "Morocco": 258
+      },
+      "is_next": false
+    },
+    {
+      "home": "Germany",
+      "away": "Paraguay",
+      "elo": {
+        "Germany": 1916,
+        "Paraguay": 1747
+      },
+      "prob": {
+        "home": 0.5668,
+        "draw": 0.2373,
+        "away": 0.1959
+      },
+      "verdict": {
+        "result": "win",
+        "winner": "Germany",
+        "margin": 1,
+        "text": "Germany to win by 1 goal"
+      },
+      "scoreline": "1-0",
+      "projected_score": "2-1",
+      "top_scores": [
+        {
+          "score": "1-0",
+          "prob": 0.1233
+        },
+        {
+          "score": "2-0",
+          "prob": 0.1017
+        },
+        {
+          "score": "1-1",
+          "prob": 0.1002
+        }
+      ],
+      "margins": {
+        "home_by1": 0.2333,
+        "home_by2plus": 0.3336,
+        "away_by1": 0.1292,
+        "away_by2plus": 0.0722
+      },
+      "expected_goals": {
+        "Germany": 1.8,
+        "Paraguay": 0.9
+      },
+      "confidence": "High",
+      "components": {
+        "poisson": {
+          "home": 0.567,
+          "draw": 0.231,
+          "away": 0.202
+        },
+        "net": {
+          "home": 0.566,
+          "draw": 0.247,
+          "away": 0.187
+        },
+        "weights": {
+          "poisson": 0.62,
+          "net": 0.38
+        }
+      },
+      "pick": "Germany",
+      "id": "2026-06-29-Germany-Paraguay",
+      "date": "2026-06-29",
+      "group": null,
+      "venue": "Foxborough (Boston)",
+      "kickoff_et": "9:30 PM ET",
+      "lineup_note": null,
+      "result": null,
+      "status": "upcoming",
+      "h2h": "1 prior meeting(s) on record. Recent: 2002: Germany 1-0 Paraguay.",
+      "appearances": {
+        "Germany": 307,
+        "Paraguay": 233
+      },
+      "is_next": false
+    }
+  ]
+}

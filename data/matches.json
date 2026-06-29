@@ -1,0 +1,756 @@
+{
+  "meta": {
+    "updated": "2026-06-29 15:48 UTC",
+    "model": "Elo + negative-binomial + MLP neural net (ensemble)",
+    "training_matches": 9931,
+    "training_note": "WC 1930-2022, Euro 1960-2024, WC/Copa qualifiers, Nations League, AFCON, Copa America",
+    "ensemble_weights": {
+      "poisson": 0.62,
+      "neural_net": 0.38
+    },
+    "as_of_date": "2026-06-29"
+  },
+  "matches": [
+    {
+      "id": "2026-06-16-France-Senegal",
+      "date": "2026-06-16",
+      "group": "I",
+      "home": "France",
+      "away": "Senegal",
+      "venue": "New York/New Jersey (East Rutherford)",
+      "result": {
+        "home": 3,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-16-Iraq-Norway",
+      "date": "2026-06-16",
+      "group": "I",
+      "home": "Iraq",
+      "away": "Norway",
+      "venue": "Boston (Foxborough)",
+      "result": {
+        "home": 1,
+        "away": 4
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-16-Argentina-Algeria",
+      "date": "2026-06-16",
+      "group": "J",
+      "home": "Argentina",
+      "away": "Algeria",
+      "venue": "Kansas City",
+      "result": {
+        "home": 3,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-16-Austria-Jordan",
+      "date": "2026-06-16",
+      "group": "J",
+      "home": "Austria",
+      "away": "Jordan",
+      "venue": "San Francisco Bay Area (Santa Clara)",
+      "result": {
+        "home": 3,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-17-Portugal-DR_Congo",
+      "date": "2026-06-17",
+      "group": "K",
+      "home": "Portugal",
+      "away": "DR Congo",
+      "venue": "Houston",
+      "result": {
+        "home": 1,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-17-England-Croatia",
+      "date": "2026-06-17",
+      "group": "L",
+      "home": "England",
+      "away": "Croatia",
+      "venue": "Dallas (Arlington)",
+      "result": {
+        "home": 4,
+        "away": 2
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-17-Ghana-Panama",
+      "date": "2026-06-17",
+      "group": "L",
+      "home": "Ghana",
+      "away": "Panama",
+      "venue": "Toronto",
+      "result": {
+        "home": 1,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-17-Uzbekistan-Colombia",
+      "date": "2026-06-17",
+      "group": "K",
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "venue": "Mexico City",
+      "result": {
+        "home": 1,
+        "away": 3
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-18-Czech_Republic-South_Africa",
+      "date": "2026-06-18",
+      "group": "A",
+      "home": "Czech Republic",
+      "away": "South Africa",
+      "venue": "Atlanta",
+      "result": {
+        "home": 1,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-18-Switzerland-Bosnia_&_Herzegovina",
+      "date": "2026-06-18",
+      "group": "B",
+      "home": "Switzerland",
+      "away": "Bosnia & Herzegovina",
+      "venue": "Los Angeles (Inglewood)",
+      "result": {
+        "home": 4,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-18-Canada-Qatar",
+      "date": "2026-06-18",
+      "group": "B",
+      "home": "Canada",
+      "away": "Qatar",
+      "venue": "Vancouver",
+      "result": {
+        "home": 6,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-18-Mexico-South_Korea",
+      "date": "2026-06-18",
+      "group": "A",
+      "home": "Mexico",
+      "away": "South Korea",
+      "venue": "Guadalajara (Zapopan)",
+      "result": {
+        "home": 1,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-19-USA-Australia",
+      "date": "2026-06-19",
+      "group": "D",
+      "home": "USA",
+      "away": "Australia",
+      "venue": "Seattle",
+      "result": {
+        "home": 2,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-19-Scotland-Morocco",
+      "date": "2026-06-19",
+      "group": "C",
+      "home": "Scotland",
+      "away": "Morocco",
+      "venue": "Boston (Foxborough)",
+      "result": {
+        "home": 0,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-19-Brazil-Haiti",
+      "date": "2026-06-19",
+      "group": "C",
+      "home": "Brazil",
+      "away": "Haiti",
+      "venue": "Philadelphia",
+      "result": {
+        "home": 3,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-19-Turkey-Paraguay",
+      "date": "2026-06-19",
+      "group": "D",
+      "home": "Turkey",
+      "away": "Paraguay",
+      "venue": "San Francisco Bay Area (Santa Clara)",
+      "result": {
+        "home": 0,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-20-Netherlands-Sweden",
+      "date": "2026-06-20",
+      "group": "F",
+      "home": "Netherlands",
+      "away": "Sweden",
+      "venue": "Houston",
+      "result": {
+        "home": 5,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-20-Germany-Ivory_Coast",
+      "date": "2026-06-20",
+      "group": "E",
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "venue": "Toronto",
+      "result": {
+        "home": 2,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-20-Ecuador-Curaçao",
+      "date": "2026-06-20",
+      "group": "E",
+      "home": "Ecuador",
+      "away": "Curaçao",
+      "venue": "Kansas City",
+      "result": {
+        "home": 0,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-20-Tunisia-Japan",
+      "date": "2026-06-20",
+      "group": "F",
+      "home": "Tunisia",
+      "away": "Japan",
+      "venue": "Monterrey (Guadalupe)",
+      "result": {
+        "home": 0,
+        "away": 4
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-21-Spain-Saudi_Arabia",
+      "date": "2026-06-21",
+      "group": "H",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "venue": "Atlanta",
+      "result": {
+        "home": 4,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-21-Belgium-Iran",
+      "date": "2026-06-21",
+      "group": "G",
+      "home": "Belgium",
+      "away": "Iran",
+      "venue": "Los Angeles (Inglewood)",
+      "result": {
+        "home": 0,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-21-Uruguay-Cape_Verde",
+      "date": "2026-06-21",
+      "group": "H",
+      "home": "Uruguay",
+      "away": "Cape Verde",
+      "venue": "Miami (Miami Gardens)",
+      "result": {
+        "home": 2,
+        "away": 2
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-21-New_Zealand-Egypt",
+      "date": "2026-06-21",
+      "group": "G",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "venue": "Vancouver",
+      "result": {
+        "home": 1,
+        "away": 3
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-22-Argentina-Austria",
+      "date": "2026-06-22",
+      "group": "J",
+      "home": "Argentina",
+      "away": "Austria",
+      "venue": "Dallas (Arlington)",
+      "result": {
+        "home": 2,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-22-France-Iraq",
+      "date": "2026-06-22",
+      "group": "I",
+      "home": "France",
+      "away": "Iraq",
+      "venue": "Philadelphia",
+      "result": {
+        "home": 3,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-22-Norway-Senegal",
+      "date": "2026-06-22",
+      "group": "I",
+      "home": "Norway",
+      "away": "Senegal",
+      "venue": "New York/New Jersey (East Rutherford)",
+      "result": {
+        "home": 3,
+        "away": 2
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-22-Jordan-Algeria",
+      "date": "2026-06-22",
+      "group": "J",
+      "home": "Jordan",
+      "away": "Algeria",
+      "venue": "San Francisco Bay Area (Santa Clara)",
+      "result": {
+        "home": 1,
+        "away": 2
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-23-Portugal-Uzbekistan",
+      "date": "2026-06-23",
+      "group": "K",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "venue": "Houston",
+      "result": {
+        "home": 5,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-23-England-Ghana",
+      "date": "2026-06-23",
+      "group": "L",
+      "home": "England",
+      "away": "Ghana",
+      "venue": "Boston (Foxborough)",
+      "result": {
+        "home": 0,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-23-Panama-Croatia",
+      "date": "2026-06-23",
+      "group": "L",
+      "home": "Panama",
+      "away": "Croatia",
+      "venue": "Toronto",
+      "result": {
+        "home": 0,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-23-Colombia-DR_Congo",
+      "date": "2026-06-23",
+      "group": "K",
+      "home": "Colombia",
+      "away": "DR Congo",
+      "venue": "Guadalajara (Zapopan)",
+      "result": {
+        "home": 1,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-24-Switzerland-Canada",
+      "date": "2026-06-24",
+      "group": "B",
+      "home": "Switzerland",
+      "away": "Canada",
+      "venue": "Vancouver",
+      "result": {
+        "home": 2,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-24-Bosnia_&_Herzegovina-Qatar",
+      "date": "2026-06-24",
+      "group": "B",
+      "home": "Bosnia & Herzegovina",
+      "away": "Qatar",
+      "venue": "Seattle",
+      "result": {
+        "home": 3,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-24-Scotland-Brazil",
+      "date": "2026-06-24",
+      "group": "C",
+      "home": "Scotland",
+      "away": "Brazil",
+      "venue": "Miami (Miami Gardens)",
+      "result": {
+        "home": 0,
+        "away": 3
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-24-Morocco-Haiti",
+      "date": "2026-06-24",
+      "group": "C",
+      "home": "Morocco",
+      "away": "Haiti",
+      "venue": "Atlanta",
+      "result": {
+        "home": 4,
+        "away": 2
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-24-Czech_Republic-Mexico",
+      "date": "2026-06-24",
+      "group": "A",
+      "home": "Czech Republic",
+      "away": "Mexico",
+      "venue": "Mexico City",
+      "result": {
+        "home": 0,
+        "away": 3
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-24-South_Africa-South_Korea",
+      "date": "2026-06-24",
+      "group": "A",
+      "home": "South Africa",
+      "away": "South Korea",
+      "venue": "Monterrey (Guadalupe)",
+      "result": {
+        "home": 1,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-25-Curaçao-Ivory_Coast",
+      "date": "2026-06-25",
+      "group": "E",
+      "home": "Curaçao",
+      "away": "Ivory Coast",
+      "venue": "Philadelphia",
+      "result": {
+        "home": 0,
+        "away": 2
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-25-Ecuador-Germany",
+      "date": "2026-06-25",
+      "group": "E",
+      "home": "Ecuador",
+      "away": "Germany",
+      "venue": "New York/New Jersey (East Rutherford)",
+      "result": {
+        "home": 2,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-25-Japan-Sweden",
+      "date": "2026-06-25",
+      "group": "F",
+      "home": "Japan",
+      "away": "Sweden",
+      "venue": "Dallas (Arlington)",
+      "result": {
+        "home": 1,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-25-Tunisia-Netherlands",
+      "date": "2026-06-25",
+      "group": "F",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "venue": "Kansas City",
+      "result": {
+        "home": 1,
+        "away": 3
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-25-Turkey-USA",
+      "date": "2026-06-25",
+      "group": "D",
+      "home": "Turkey",
+      "away": "USA",
+      "venue": "Los Angeles (Inglewood)",
+      "result": {
+        "home": 3,
+        "away": 2
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-25-Paraguay-Australia",
+      "date": "2026-06-25",
+      "group": "D",
+      "home": "Paraguay",
+      "away": "Australia",
+      "venue": "San Francisco Bay Area (Santa Clara)",
+      "result": {
+        "home": 0,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-26-Norway-France",
+      "date": "2026-06-26",
+      "group": "I",
+      "home": "Norway",
+      "away": "France",
+      "venue": "Boston (Foxborough)",
+      "result": {
+        "home": 1,
+        "away": 4
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-26-Senegal-Iraq",
+      "date": "2026-06-26",
+      "group": "I",
+      "home": "Senegal",
+      "away": "Iraq",
+      "venue": "Toronto",
+      "result": {
+        "home": 5,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-26-Cape_Verde-Saudi_Arabia",
+      "date": "2026-06-26",
+      "group": "H",
+      "home": "Cape Verde",
+      "away": "Saudi Arabia",
+      "venue": "Houston",
+      "result": {
+        "home": 0,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-26-Uruguay-Spain",
+      "date": "2026-06-26",
+      "group": "H",
+      "home": "Uruguay",
+      "away": "Spain",
+      "venue": "Guadalajara (Zapopan)",
+      "result": {
+        "home": 0,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-26-Egypt-Iran",
+      "date": "2026-06-26",
+      "group": "G",
+      "home": "Egypt",
+      "away": "Iran",
+      "venue": "Seattle",
+      "result": {
+        "home": 1,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-26-New_Zealand-Belgium",
+      "date": "2026-06-26",
+      "group": "G",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "venue": "Vancouver",
+      "result": {
+        "home": 1,
+        "away": 5
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-27-Panama-England",
+      "date": "2026-06-27",
+      "group": "L",
+      "home": "Panama",
+      "away": "England",
+      "venue": "New York/New Jersey (East Rutherford)",
+      "result": {
+        "home": 0,
+        "away": 2
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-27-Croatia-Ghana",
+      "date": "2026-06-27",
+      "group": "L",
+      "home": "Croatia",
+      "away": "Ghana",
+      "venue": "Philadelphia",
+      "result": {
+        "home": 2,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-27-Colombia-Portugal",
+      "date": "2026-06-27",
+      "group": "K",
+      "home": "Colombia",
+      "away": "Portugal",
+      "venue": "Miami (Miami Gardens)",
+      "result": {
+        "home": 0,
+        "away": 0
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-27-DR_Congo-Uzbekistan",
+      "date": "2026-06-27",
+      "group": "K",
+      "home": "DR Congo",
+      "away": "Uzbekistan",
+      "venue": "Atlanta",
+      "result": {
+        "home": 3,
+        "away": 1
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-27-Algeria-Austria",
+      "date": "2026-06-27",
+      "group": "J",
+      "home": "Algeria",
+      "away": "Austria",
+      "venue": "Kansas City",
+      "result": {
+        "home": 3,
+        "away": 3
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-27-Jordan-Argentina",
+      "date": "2026-06-27",
+      "group": "J",
+      "home": "Jordan",
+      "away": "Argentina",
+      "venue": "Dallas (Arlington)",
+      "result": {
+        "home": 1,
+        "away": 3
+      },
+      "predicted": true
+    },
+    {
+      "id": "2026-06-28-South_Africa-Canada",
+      "date": "2026-06-28",
+      "group": null,
+      "home": "South Africa",
+      "away": "Canada",
+      "venue": "Los Angeles",
+      "result": {
+        "home": 0,
+        "away": 1
+      },
+      "predicted": true
+    }
+  ]
+}
