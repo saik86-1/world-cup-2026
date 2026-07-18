@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "updated": "2026-07-18 03:07 UTC",
+    "model": "Elo + negative-binomial + MLP neural net (ensemble)",
+    "training_matches": 9931,
+    "training_note": "WC 1930-2022, Euro 1960-2024, WC/Copa qualifiers, Nations League, AFCON, Copa America",
+    "ensemble_weights": {
+      "poisson": 0.62,
+      "neural_net": 0.38
+    },
+    "as_of_date": "2026-07-18"
+  },
+  "predictions": [
+    {
+      "home": "France",
+      "away": "England",
+      "elo": {
+        "France": 2119,
+        "England": 2072
+      },
+      "prob": {
+        "home": 0.4172,
+        "draw": 0.2611,
+        "away": 0.3218
+      },
+      "verdict": {
+        "result": "win",
+        "winner": "France",
+        "margin": 1,
+        "text": "France to win by 1 goal"
+      },
+      "scoreline": "1-1",
+      "projected_score": "1-1",
+      "top_scores": [
+        {
+          "score": "1-1",
+          "prob": 0.1093
+        },
+        {
+          "score": "1-0",
+          "prob": 0.1028
+        },
+        {
+          "score": "0-1",
+          "prob": 0.0879
+        }
+      ],
+      "margins": {
+        "home_by1": 0.2083,
+        "home_by2plus": 0.2186,
+        "away_by1": 0.1779,
+        "away_by2plus": 0.1449
+      },
+      "expected_goals": {
+        "France": 1.47,
+        "England": 1.23
+      },
+      "confidence": "Low",
+      "components": {
+        "poisson": {
+          "home": 0.427,
+          "draw": 0.25,
+          "away": 0.323
+        },
+        "net": {
+          "home": 0.401,
+          "draw": 0.279,
+          "away": 0.32
+        },
+        "weights": {
+          "poisson": 0.62,
+          "net": 0.38
+        }
+      },
+      "pick": "France",
+      "id": "2026-07-18-France-England",
+      "date": "2026-07-18",
+      "group": null,
+      "venue": "Miami",
+      "kickoff_et": "3:00 PM ET",
+      "lineup_note": null,
+      "result": null,
+      "status": "upcoming",
+      "h2h": "6 prior meeting(s) on record. Recent: 2004: France 2-1 England; 2012: France 1-1 England; 2022: England 1-2 France.",
+      "appearances": {
+        "France": 267,
+        "England": 268
+      },
+      "is_next": true
+    }
+  ]
+}

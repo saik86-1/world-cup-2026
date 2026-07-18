@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "updated": "2026-07-18 03:07 UTC",
+    "model": "Elo + negative-binomial + MLP neural net (ensemble)",
+    "training_matches": 9931,
+    "training_note": "WC 1930-2022, Euro 1960-2024, WC/Copa qualifiers, Nations League, AFCON, Copa America",
+    "ensemble_weights": {
+      "poisson": 0.62,
+      "neural_net": 0.38
+    },
+    "as_of_date": "2026-07-18"
+  },
+  "accuracy": {
+    "predictions_made": 86,
+    "scored": 86,
+    "correct_outcomes": 62,
+    "outcome_hit_rate": 0.721,
+    "exact_margin": 22,
+    "brier_score": 0.4467,
+    "log_loss": 0.7833,
+    "note": "Cumulative record across every predicted match, scored as results come in."
+  }
+}

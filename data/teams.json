@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "updated": "2026-07-18 03:07 UTC",
+    "model": "Elo + negative-binomial + MLP neural net (ensemble)",
+    "training_matches": 9931,
+    "training_note": "WC 1930-2022, Euro 1960-2024, WC/Copa qualifiers, Nations League, AFCON, Copa America",
+    "ensemble_weights": {
+      "poisson": 0.62,
+      "neural_net": 0.38
+    },
+    "as_of_date": "2026-07-18"
+  },
+  "teams": [
+    {
+      "name": "Spain",
+      "flag": "🇪🇸",
+      "confederation": "UEFA",
+      "seed_elo": 2129,
+      "current_elo": 2231,
+      "rank": 1
+    },
+    {
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "confederation": "CONMEBOL",
+      "seed_elo": 2115,
+      "current_elo": 2200,
+      "rank": 2
+    },
+    {
+      "name": "France",
+      "flag": "🇫🇷",
+      "confederation": "UEFA",
+      "seed_elo": 2063,
+      "current_elo": 2119,
+      "rank": 3
+    },
+    {
+      "name": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "confederation": "UEFA",
+      "seed_elo": 2024,
+      "current_elo": 2072,
+      "rank": 4
+    },
+    {
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "confederation": "CONMEBOL",
+      "seed_elo": 1982,
+      "current_elo": 2003,
+      "rank": 5
+    },
+    {
+      "name": "Portugal",
+      "flag": "🇵🇹",
+      "confederation": "UEFA",
+      "seed_elo": 1989,
+      "current_elo": 1994,
+      "rank": 6
+    },
+    {
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "confederation": "CONMEBOL",
+      "seed_elo": 1978,
+      "current_elo": 1993,
+      "rank": 7
+    },
+    {
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "confederation": "UEFA",
+      "seed_elo": 1944,
+      "current_elo": 1972,
+      "rank": 8
+    },
+    {
+      "name": "Norway",
+      "flag": "🇳🇴",
+      "confederation": "UEFA",
+      "seed_elo": 1914,
+      "current_elo": 1952,
+      "rank": 9
+    },
+    {
+      "name": "Belgium",
+      "flag": "🇧🇪",
+      "confederation": "UEFA",
+      "seed_elo": 1879,
+      "current_elo": 1944,
+      "rank": 10
+    },
+    {
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "confederation": "UEFA",
+      "seed_elo": 1865,
+      "current_elo": 1926,
+      "rank": 11
+    },
+    {
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "confederation": "CONCACAF",
+      "seed_elo": 1881,
+      "current_elo": 1924,
+      "rank": 12
+    },
+    {
+      "name": "Morocco",
+      "flag": "🇲🇦",
+      "confederation": "CAF",
+      "seed_elo": 1840,
+      "current_elo": 1909,
+      "rank": 13
+    },
+    {
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "confederation": "UEFA",
+      "seed_elo": 1939,
+      "current_elo": 1903,
+      "rank": 14
+    },
+    {
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "confederation": "AFC",
+      "seed_elo": 1910,
+      "current_elo": 1888,
+      "rank": 15
+    },
+    {
+      "name": "Croatia",
+      "flag": "🇭🇷",
+      "confederation": "UEFA",
+      "seed_elo": 1912,
+      "current_elo": 1881,
+      "rank": 16
+    },
+    {
+      "name": "Ecuador",
+      "flag": "🇪🇨",
+      "confederation": "CONMEBOL",
+      "seed_elo": 1890,
+      "current_elo": 1867,
+      "rank": 17
+    },
+    {
+      "name": "Turkey",
+      "flag": "🇹🇷",
+      "confederation": "UEFA",
+      "seed_elo": 1849,
+      "current_elo": 1844,
+      "rank": 18
+    },
+    {
+      "name": "Uruguay",
+      "flag": "🇺🇾",
+      "confederation": "CONMEBOL",
+      "seed_elo": 1870,
+      "current_elo": 1841,
+      "rank": 19
+    },
+    {
+      "name": "Austria",
+      "flag": "🇦🇹",
+      "confederation": "UEFA",
+      "seed_elo": 1830,
+      "current_elo": 1821,
+      "rank": 20
+    },
+    {
+      "name": "Senegal",
+      "flag": "🇸🇳",
+      "confederation": "CAF",
+      "seed_elo": 1860,
+      "current_elo": 1815,
+      "rank": 21
+    },
+    {
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "confederation": "AFC",
+      "seed_elo": 1839,
+      "current_elo": 1786,
+      "rank": 22
+    },
+    {
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "confederation": "AFC",
+      "seed_elo": 1756,
+      "current_elo": 1764,
+      "rank": 23
+    },
+    {
+      "name": "USA",
+      "flag": "🇺🇸",
+      "confederation": "CONCACAF",
+      "seed_elo": 1780,
+      "current_elo": 1760,
+      "rank": 24
+    },
+    {
+      "name": "Algeria",
+      "flag": "🇩🇿",
+      "confederation": "CAF",
+      "seed_elo": 1772,
+      "current_elo": 1756,
+      "rank": 25
+    },
+    {
+      "name": "Paraguay",
+      "flag": "🇵🇾",
+      "confederation": "CONMEBOL",
+      "seed_elo": 1700,
+      "current_elo": 1754,
+      "rank": 26
+    },
+    {
+      "name": "Scotland",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "confederation": "UEFA",
+      "seed_elo": 1794,
+      "current_elo": 1745,
+      "rank": 27
+    },
+    {
+      "name": "Egypt",
+      "flag": "🇪🇬",
+      "confederation": "CAF",
+      "seed_elo": 1711,
+      "current_elo": 1741,
+      "rank": 28
+    },
+    {
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "confederation": "UEFA",
+      "seed_elo": 1755,
+      "current_elo": 1732,
+      "rank": 29
+    },
+    {
+      "name": "Ivory Coast",
+      "flag": "🇨🇮",
+      "confederation": "CAF",
+      "seed_elo": 1743,
+      "current_elo": 1728,
+      "rank": 30
+    },
+    {
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "confederation": "CONCACAF",
+      "seed_elo": 1767,
+      "current_elo": 1721,
+      "rank": 31
+    },
+    {
+      "name": "South Korea",
+      "flag": "🇰🇷",
+      "confederation": "AFC",
+      "seed_elo": 1786,
+      "current_elo": 1721,
+      "rank": 32
+    },
+    {
+      "name": "DR Congo",
+      "flag": "🇨🇩",
+      "confederation": "CAF",
+      "seed_elo": 1652,
+      "current_elo": 1705,
+      "rank": 33
+    },
+    {
+      "name": "Czech Republic",
+      "flag": "🇨🇿",
+      "confederation": "UEFA",
+      "seed_elo": 1712,
+      "current_elo": 1678,
+      "rank": 34
+    },
+    {
+      "name": "Panama",
+      "flag": "🇵🇦",
+      "confederation": "CONCACAF",
+      "seed_elo": 1730,
+      "current_elo": 1659,
+      "rank": 35
+    },
+    {
+      "name": "Uzbekistan",
+      "flag": "🇺🇿",
+      "confederation": "AFC",
+      "seed_elo": 1714,
+      "current_elo": 1631,
+      "rank": 36
+    },
+    {
+      "name": "Jordan",
+      "flag": "🇯🇴",
+      "confederation": "AFC",
+      "seed_elo": 1680,
+      "current_elo": 1628,
+      "rank": 37
+    },
+    {
+      "name": "Cape Verde",
+      "flag": "🇨🇻",
+      "confederation": "CAF",
+      "seed_elo": 1606,
+      "current_elo": 1620,
+      "rank": 38
+    },
+    {
+      "name": "Bosnia & Herzegovina",
+      "flag": "🇧🇦",
+      "confederation": "UEFA",
+      "seed_elo": 1616,
+      "current_elo": 1602,
+      "rank": 39
+    },
+    {
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "confederation": "AFC",
+      "seed_elo": 1598,
+      "current_elo": 1596,
+      "rank": 40
+    },
+    {
+      "name": "Ghana",
+      "flag": "🇬🇭",
+      "confederation": "CAF",
+      "seed_elo": 1510,
+      "current_elo": 1570,
+      "rank": 41
+    },
+    {
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "confederation": "CAF",
+      "seed_elo": 1511,
+      "current_elo": 1563,
+      "rank": 42
+    },
+    {
+      "name": "Tunisia",
+      "flag": "🇹🇳",
+      "confederation": "CAF",
+      "seed_elo": 1585,
+      "current_elo": 1562,
+      "rank": 43
+    },
+    {
+      "name": "Iraq",
+      "flag": "🇮🇶",
+      "confederation": "AFC",
+      "seed_elo": 1607,
+      "current_elo": 1561,
+      "rank": 44
+    },
+    {
+      "name": "New Zealand",
+      "flag": "🇳🇿",
+      "confederation": "OFC",
+      "seed_elo": 1578,
+      "current_elo": 1534,
+      "rank": 45
+    },
+    {
+      "name": "Haiti",
+      "flag": "🇭🇹",
+      "confederation": "CONCACAF",
+      "seed_elo": 1536,
+      "current_elo": 1517,
+      "rank": 46
+    },
+    {
+      "name": "Curaçao",
+      "flag": "🇨🇼",
+      "confederation": "CONCACAF",
+      "seed_elo": 1427,
+      "current_elo": 1438,
+      "rank": 47
+    },
+    {
+      "name": "Qatar",
+      "flag": "🇶🇦",
+      "confederation": "AFC",
+      "seed_elo": 1447,
+      "current_elo": 1409,
+      "rank": 48
+    }
+  ]
+}

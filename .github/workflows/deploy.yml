@@ -1,0 +1,52 @@
+name: Predict & deploy
+
+# Runs on every push, once daily (12:00 UTC ≈ 8am ET, before the day's matches),
+# and on manual trigger. Each run regenerates that day's predictions, commits the
+# refreshed data, rebuilds the site and deploys it to GitHub Pages.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install model deps
+        run: pip install numpy scikit-learn
+
+      - name: Generate today's predictions
+        run: python3 model/predict_day.py
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Build site
+        run: |
+          cp data/*.json web/src/data/
+          cd web
+          npm install
+          npm run build
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
